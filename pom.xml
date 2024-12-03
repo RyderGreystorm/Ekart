@@ -117,18 +117,6 @@
             <version>2.1.4</version>
         </dependency>
 
-         <dependency>
-             <groupId>org.somegroup</groupId>
-             <artifactId>some-artifact</artifactId>
-             <version>some-version</version>
-             <exclusions>
-                 <exclusion>
-                     <groupId>ch.qos.logback</groupId>
-                     <artifactId>logback-classic</artifactId>
-                 </exclusion>
-             </exclusions>
-         </dependency>
-
     </dependencies>
 
     <build>
